@@ -32,27 +32,34 @@ http://vision.stanford.edu/aditya86/ImageNetDogs/images.tar
 
 ---
 
+# Project Demo
+
+https://youtu.be/Ic4UQqTkkCY
+
+---
+
 # Project Structure
 
 Dog-Breed-Recognition/
 
-├── Test.py  
-├── Labels.py  
+- Test.py  
+- Labels.py  
 
-├── ResNet50.py  
-├── VGG16.py  
-├── InceptionV3.py  
+- ResNet50.py  
+- VGG16.py  
+- InceptionV3.py  
 
-├── ResNet50_Results.txt  
-├── VGG16_Results.txt  
-├── InceptionV3_Results.txt  
+- ResNet50_Results.txt  
+- VGG16_Results.txt  
+- InceptionV3_Results.txt  
 
-└── Images/ (dataset folder)
+- Images/ (dataset folder)
 
 ### File Descriptions
 
 | File | Description |
 |-----|-------------|
+| Group 27 (Null).pdf | Results and findings of the 3 models |
 | ResNet50.py | Training script for the ResNet50 model |
 | VGG16.py | Training script for the VGG16 model |
 | InceptionV3.py | Training script for the InceptionV3 model |
@@ -83,12 +90,12 @@ Example structure:
 
 project_folder/
 
-├── Images/  
-├── Test.py  
-├── Labels.py  
-├── ResNet50.py  
-├── VGG16.py  
-├── InceptionV3.py  
+-  Images/  
+-  Test.py  
+-  Labels.py  
+-  ResNet50.py  
+-  VGG16.py  
+-  InceptionV3.py  
 
 ---
 
@@ -199,12 +206,6 @@ Future improvements may include:
 
 ---
 
-# Demo
-
-https://youtu.be/Ic4UQqTkkCY
-
----
-
 # Authors
 
 Group 27 (Null)
@@ -226,3 +227,4 @@ http://vision.stanford.edu/aditya86/ImageNetDogs/
 
 
 # NOTE: The output files are provided as .txt files.
+
