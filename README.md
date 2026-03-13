@@ -19,7 +19,7 @@ In this project, **InceptionV3 achieved the best performance (~82.8% accuracy)**
 
 ---
 
-# Dataset
+## Dataset
 
 This project uses the **Stanford Dogs Dataset**, which contains images of **120 dog breeds**.
 
@@ -32,13 +32,26 @@ http://vision.stanford.edu/aditya86/ImageNetDogs/images.tar
 
 ---
 
-# Project Demo
+## Project Demo
 
 https://youtu.be/Ic4UQqTkkCY
 
 ---
 
-# Project Structure
+## Authors
+
+Group 27 (Null)
+
+- Vania Graciella Kwee
+- Niruba Annriea Kichor Sagayaradje  
+- Joshe D/O Chantiramugan 
+- Wong Poh Yee  
+- Teng Wei Chee  
+- Keeve Wong Ye Kai  
+
+---
+
+## Project Structure
 
 Dog-Breed-Recognition/
 
@@ -69,7 +82,7 @@ Dog-Breed-Recognition/
 
 ---
 
-# Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -105,9 +118,9 @@ pip install tensorflow keras numpy matplotlib scikit-learn
 
 ---
 
-# Running the Models
+## Running the Models
 
-## Step 1 - Configure Dataset Path
+### Step 1 - Configure Dataset Path
 
 Open:
 
@@ -121,7 +134,7 @@ DATA_DIR = "C:\\Desktop\\Folder\\Images"
 
 ---
 
-## Step 2 - Train the Models
+### Step 2 - Train the Models
 
 python ResNet50.py
 
@@ -135,7 +148,7 @@ python InceptionV3.py
 
 ---
 
-## Step 3 - Configure Test Script
+### Step 3 - Configure Test Script
 
 Open **Test.py** and update:
 
@@ -149,13 +162,13 @@ LABELS_PATH = "C:\\Desktop\\Folder\\Labels.py"
 
 ---
 
-## Step 4 - Run Test Script
+### Step 4 - Run Test Script
 
 python Test.py
 
 ---
 
-# Results
+## Results
 
 Model results are provided in:
 
@@ -174,7 +187,7 @@ Example metrics (InceptionV3):
 
 ---
 
-# Methodology
+## Methodology
 
 Key techniques used:
 
@@ -190,7 +203,7 @@ Key techniques used:
 
 ---
 
-# Limitations
+## Limitations
 
 - Similar-looking breeds may be misclassified
 - Image quality and backgrounds can affect predictions
@@ -206,25 +219,13 @@ Future improvements may include:
 
 ---
 
-# Authors
-
-Group 27 (Null)
-
-- Vania Graciella Kwee
-- Niruba Annriea Kichor Sagayaradje  
-- Joshe D/O Chantiramugan 
-- Wong Poh Yee  
-- Teng Wei Chee  
-- Keeve Wong Ye Kai  
-
----
-
-# 📚 References
+## 📚 References
 
 Stanford Dogs Dataset  
 http://vision.stanford.edu/aditya86/ImageNetDogs/
 
 
 
-# NOTE: The output files are provided as .txt files.
+## NOTE: The output files are provided as .txt files.
+
 
