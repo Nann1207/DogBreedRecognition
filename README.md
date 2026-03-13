@@ -219,7 +219,7 @@ Future improvements may include:
 
 ---
 
-## 📚 References
+## References
 
 Stanford Dogs Dataset  
 http://vision.stanford.edu/aditya86/ImageNetDogs/
@@ -227,5 +227,6 @@ http://vision.stanford.edu/aditya86/ImageNetDogs/
 
 
 ## NOTE: The output files are provided as .txt files.
+
 
 
