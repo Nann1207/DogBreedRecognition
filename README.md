@@ -113,9 +113,9 @@ project_folder/
 ---
 
 ### 3. Install Dependencies
-
+```bash
 pip install tensorflow keras numpy matplotlib scikit-learn
-
+```
 ---
 
 ## Running the Models
@@ -135,16 +135,21 @@ DATA_DIR = "C:\\Desktop\\Folder\\Images"
 ---
 
 ### Step 2 - Train the Models
-
+```bash
 python ResNet50.py
+```
 
 or
 
+```bash
 python VGG16.py
+```
 
 or
 
+```bash
 python InceptionV3.py
+```
 
 ---
 
@@ -163,8 +168,9 @@ LABELS_PATH = "C:\\Desktop\\Folder\\Labels.py"
 ---
 
 ### Step 4 - Run Test Script
-
+```bash
 python Test.py
+```
 
 ---
 
